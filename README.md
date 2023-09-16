@@ -4,10 +4,6 @@
 
 </div>
 
-<div dir="rtl">
-<a href="https://jiganesh.github.io/Pawnhub/">HTML Page</a>
-</div>
-
 
 Chess is a board game for two players, called White and Black. Each controlling an army of chess pieces in their color, with the objective to checkmate the opponent's king. 
 
