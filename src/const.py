@@ -1,0 +1,11 @@
+WIDTH = 800
+HEIGHT = 800
+
+COLS = 8
+ROWS = 8
+
+SQUARE_SIZE = WIDTH // COLS
+
+
+WHITE = "white"
+BLACK = "black"
