@@ -29,38 +29,45 @@ class Config:
         
     
     def add_themes(self):
-        green = Theme(
+        standard = Theme(
             color.LIGHT_GREEN,
             color.DARK_GREEN,
-            color.YELLOW,
-            color.DARK_YELLOW
+            color.LIGHT_GREEN_TRACE,
+            color.DARK_GREEN_TRACE
         )
         
         # ToDo
         
         
-        brown = Theme(      
-            color.LIGHT_BROWN,  
-            color.DARK_BROWN,
-            color.TINT,
-            color.BROWN
+        walnut = Theme(      
+            color.LIGHT_TAN,  
+            color.DARK_TAN,
+            color.LIGHT_TAN_TRACE,
+            color.DARK_TAN_TRACE
             
         )
 
         blue = Theme(
             color.LIGHT_BLUE,
             color.DARK_BLUE,
-            color.FAINT_BLUE,
-            color.BLUE
+            color.LIGHT_BLUE_TRACE,
+            color.DARK_BLUE_TRACE
         )
         
-        red = Theme(
-            color.RED,
-            color.CHECKERS_BLACK,
+        checkers = Theme(
+            color.DARK_RED,
+            color.LIGHT_GREY,
             color.SKIN,
             color.OLIVE
             
         )
+
+        cosmos = Theme (
+            color.COSMOS_LIGHT,
+            color.COSMOS_DARK,
+            color.COSMOS_LIGHT_TRACE,
+            color.COSMOS_DARK_TRACE
+        )
         
-        self.themes = [green, blue, brown, red]
+        self.themes = [standard, walnut, blue, checkers, cosmos]
         

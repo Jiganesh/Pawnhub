@@ -39,9 +39,17 @@ Chess is a board game for two players, called White and Black. Each controlling 
 ### <span style="color:orange;">Themes</span> in pawnhub
 
 
-At pawnhub there are four color configuration which can be switched between by pressing <span style="color:orange;">Key - T</span>
+At pawnhub there are five theme configuration which can be switched between by pressing <span style="color:orange;">Key - T</span>
 
-![Themes available in application](screenshots/themes.png)
+We call them :
+
+- cosmos
+- blue
+- standard
+- walnut
+- checkers
+
+![Themes available in application](screenshots/new_themes.png)
 
 ### <span style="color:orange;">Rules</span> in pawnhub
 
