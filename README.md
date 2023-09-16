@@ -1,17 +1,21 @@
+<!-- HEADING -->
 <div align="center">
 
-# <span style="color:orange;">Pawn</span>hub 
+<img src="screenshots/pawnhub.png" alt="drawing" width="400"/>
 
 </div>
+</br>
 
-
+<!-- DESCRIPTION -->
 Chess is a board game for two players, called White and Black. Each controlling an army of chess pieces in their color, with the objective to checkmate the opponent's king. 
 
 
 <strong>Pawnhub</strong> is a chess variant. Capturing rival pieces demotes the capturing piece to pawn piece after eleminating captured piece.
 
 
-### <span style="color:orange;">Key</span> mappings
+
+<!-- KEYMAPPINGS -->
+**<span style="color:orange;">Key</span> mappings**
 
 | KEYBOARD - KEY  | KEY MAPPINGS |
 | ------------- | ------------- |
@@ -20,7 +24,7 @@ Chess is a board game for two players, called White and Black. Each controlling 
 | KEY - T | Change the theme |
 
 
-### <span style="color:orange;">Pawn</span> promotion mappings
+**<span style="color:orange;">Pawn</span> promotion mappings**
 
 | KEYBOARD - KEY  | KEY MAPPINGS                                                                        |
 | -------------   | ------------------------------------------------------------------------------------|
@@ -29,14 +33,16 @@ Chess is a board game for two players, called White and Black. Each controlling 
 | KEY - B         | Promote to <span style="color:orange;">Bishop</span> after pawn reaches last rank   |
 | KEY - K         | Promote to <span style="color:orange;">Knight</span> after pawn reaches last rank   |
 
+<!-- LOW LEVEL DESIGN -->
 
-### <span style="color:orange;">Low Level</span> design
+**<span style="color:orange;">Low Level</span> design**
 
 <img src="screenshots/low_level_design.png" alt="drawing" width="800"/>
 
 
+<!-- THEMES -->
 
-### <span style="color:orange;">Themes</span> in pawnhub
+**<span style="color:orange;">Themes</span> in pawnhub**
 
 
 At pawnhub there are five theme configuration which can be switched between by pressing <span style="color:orange;">Key - T</span>
@@ -51,23 +57,25 @@ We call them :
 
 ![Themes available in application](screenshots/new_themes.png)
 
-### <span style="color:orange;">Rules</span> in pawnhub
+
+<!-- RULES -->
+**<span style="color:orange;">Rules</span> in pawnhub**
 
 All the traditional chess rules work as it is except captures
 
-- ### Castling 
+- **Castling**
 
     <img src="screenshots/castling.png" alt="drawing" width="300"/>
 
-- ### Promotion
+- **Promotion**
 
     <img src="screenshots/promotion.png" alt="drawing" width="800"/>
 
-- ### En passant
+- **En passant**
 
     <img src="screenshots/en_passant.png" alt="drawing" width="600"/>
 
-- ### Capturing
+- **Capturing**
 
     Capturing works little different at pawnhub, When player plays a move which captures opponents pieces, after eliminating the opponents piece the playes piece demotes in Pawn piece
     
