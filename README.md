@@ -16,12 +16,13 @@ Chess is a board game for two players, called White and Black. Each controlling 
 
 
 ### <span style="color:orange;">Pawn</span> promotion mappings
-| KEYBOARD - KEY  | KEY MAPPINGS |
-| ------------- | ------------- |
-| KEY - Q | Promote to <span style="color:orange;">Queen</span> after pawn reaches last rank|
-| KEY - R  | Promote to <span style="color:orange;">Rook</span> after pawn reaches last rank  |
-| KEY - B  | Promote to <span style="color:orange;">Bishop</span> after pawn reaches last rank  |
-| KEY - K  | Promote to <span style="color:orange;">Knight</span> after pawn reaches last rank  |
+
+| KEYBOARD - KEY  | KEY MAPPINGS                                                                        |
+| -------------   | ------------------------------------------------------------------------------------|
+| KEY - Q         | Promote to <span style="color:orange;">Queen</span> after pawn reaches last rank    |
+| KEY - R         | Promote to <span style="color:orange;">Rook</span> after pawn reaches last rank     |
+| KEY - B         | Promote to <span style="color:orange;">Bishop</span> after pawn reaches last rank   |
+| KEY - K         | Promote to <span style="color:orange;">Knight</span> after pawn reaches last rank   |
 
 
 ### <span style="color:orange;">Low Level</span> design
