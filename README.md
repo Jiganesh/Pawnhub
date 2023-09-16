@@ -3,10 +3,14 @@
 # <span style="color:orange;">Pawn</span>hub 
 
 </div>
+
 <div dir="rtl">
 <a href="https://jiganesh.github.io/Pawnhub/">HTML Page</a>
 </div>
+
+
 Chess is a board game for two players, called White and Black. Each controlling an army of chess pieces in their color, with the objective to checkmate the opponent's king. 
+
 
 <strong>Pawnhub</strong> is a chess variant. Capturing rival pieces demotes the capturing piece to pawn piece after eleminating captured piece.
 
