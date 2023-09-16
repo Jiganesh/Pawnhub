@@ -26,6 +26,8 @@ Chess is a board game for two players, called White and Black. Each controlling 
 
 ### <span style="color:orange;">Low Level</span> design
 
+<img src="screenshots/low_level_design.png" alt="drawing" width="800"/>
+
 
 
 ### <span style="color:orange;">Themes</span> in pawnhub
