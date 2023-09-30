@@ -45,7 +45,7 @@ class Board :
 
         if final.row ==0 or final.row==7 and initial_piece.name == "pawn"  :
             self.squares[final.row][final.col].piece = piece
-        elif captured:
+        elif captured and initial_piece.name != "king":
             self.squares[final.row][final.col].piece = Pawn(piece.color)
         else : 
             self.squares[final.row][final.col].piece = piece
